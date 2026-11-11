@@ -1,5 +1,5 @@
 body {
-    background-color: #171329;
+    background-color: #4931b3;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -18,13 +18,47 @@ h2 {
 p {
     font-size: 18px;
 }
-
-button {
+/*botones*/
+.button-primary {
     background-color: #D8B45A;
     color: #171329;
-    border: none;
+    border: 8px solid #cf16c0;
+    padding: 14px 28px;
+    border-radius: 100px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* efecto hover para el botón primario */
+.button-primary:hover {
+    background-color: #e0e0e0;
+    color: #230cec;
+}
+
+.button-secondary {
+    background-color: #1fe076;
+    color: #171329;
+    border: 6px solid #cfb316;
     padding: 14px 28px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* efecto hover para el botón secundario */
+.button-secondary:hover {
+    background-color: #cfb316;
+    color: #1fe076;
+}
+/* efecto hover para el botón de peligro */
+.button-danger:hover {
+    background-color: #16aacf;
+    color: #ff1010;
+}
+.button-danger {
+    background-color: #ff1010;
+    color: #390cff;
+    border: 6px solid #16aacf;
+    padding: 14px 28px;
+    border-radius: 80px;
+    font-size: 40px;
     cursor: pointer;
 }
